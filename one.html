@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        #parent {
+            width: 998px;
+            border: 1px black solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #company {
+            background-color: rgb(175, 49, 175);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            border-radius: 5px;
+            width: 200px;
+            height: 40px;
+            margin: 10px;
+            text-align: center;
+            color: white;
+            padding: 15px;
+        }
+
+        #para {
+            white-space: wrap;
+            text-align: center;
+            width: 750px;
+        }
+
+        #hr {
+            background: rgb(175, 49, 175);
+        }
+
+        #b1 {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            background-color: rgb(175, 49, 175);
+            text-align: center;
+            padding: 10px;
+            display: inline;
+            border-radius: 5px;
+        }
+
+        .img {
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            background-color: gray;
+        }
+
+        .horizontal-line {
+            width: 600px;
+            border: 2px dotted palevioletred;
+        }
+
+        .founder-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        #b2 {
+            display: flex;
+            flex-direction: row;
+            gap: 120px;
+            align-items: center;
+        }
+
+        #b3 {
+            display: flex;
+            flex-direction: row;
+            gap: 90px;
+            align-items: center;
+        }
+
+        #b4 {
+            display: flex;
+            flex-direction: row;
+            gap: 120px;
+            align-items: center;
+        }
+
+        #b5 {
+            display: flex;
+            flex-direction: row;
+            gap: 90px;
+            align-items: center;
+        }
+
+        #b6 {
+            display: flex;
+            flex-direction: row;
+            gap: 120px;
+            align-items: center;
+        }
+
+        #box1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .p {
+            color: plum;
+        }
+
+        #img1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: flex-start;
+            float: left
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <!-- <img id="img1" src="inter.png" alt=""> -->
+        <div id="company">
+            <h3>Company Name</h3>
+        </div>
+        <br>
+        <p id="para">
+            Welcome to [Your Company Name],where a dedicated team of professionals works. together to bring innovation
+            ,creativity and expertise to software industry.get to know the individulas who make our company thrive.</p>
+        <hr style="background-color: palevioletred;" width="2px" class="horizontal-line">
+        <div id="box1">
+            <h1>Meet Our Team</h1>
+            <h2>Leardership/Management Team</h2>
+            <br>
+            <br>
+            <div id="b1">
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[Founder Name]</h3>
+                    <p class="p">Founder/CEO</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[Founder Name]</h3>
+                    <p class="p">Founder/CEO</p>
+                </div>
+            </div>
+            <div id="b2">
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[VP Name]</h3>
+                    <p class="p">VP,Development& <br>growth</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[VP Name]</h3>
+                    <p class="p">VP,Sales& <br> Marketing</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[VP Name]</h3>
+                    <p class="p">VP,Finance& <br> Operation</p>
+                </div>
+            </div>
+            <h2>Development Team</h2>
+            <div id="b3">
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Developer NAME]</h3>
+                    <p class="p">Team Lead SE</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Developer NAME]</h3>
+                    <p class="p">Software Engineering</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Developer NAME]</h3>
+                    <p class="p">Software Engineering</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Developer NAME]</h3>
+                    <p class="p">Software Engineering</p>
+                </div>
+            </div>
+            <div id="b4">
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Developer NAME]</h3>
+                    <p class="p">Software Engineering</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Developer NAME]</h3>
+                    <p class="p">Software Engineering</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Developer NAME]</h3>
+                    <p class="p">Software Engineering</p>
+                </div>
+            </div>
+            <h2>Sales and Marketing Team</h2>
+            <div id="b5">
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Employee NAME]</h3>
+                    <p class="p">Team Lead</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Employee NAME]</h3>
+                    <p class="p">Sales officer</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Employee NAME]</h3>
+                    <p class="p">Sales officer</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Employee NAME]</h3>
+                    <p class="p">Sales officer</p>
+                </div>
+            </div>
+            <div id="b6">
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Founder NAME]</h3>
+                    <p class="p">Marketing officer</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Founder NAME]</h3>
+                    <p class="p">Marketing officer</p>
+                </div>
+                <div class="founder-container">
+                    <img class="img" src="internship.png" alt="no image found">
+                    <h3>[ Founder NAME]</h3>
+                    <p class="p">Marketing officer</p>
+                </div>
+            </div>
+
+</body>
+
+</html>
